@@ -16,7 +16,7 @@ def current_player(board)
 
   if count.even?
     puts "X"
-  else
+  elsif count.odd?
     puts "O"
   end
 end
